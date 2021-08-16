@@ -11,14 +11,17 @@
 <body>
 
     <!--navbar section-->
-    <div class="navbar-left">
-        <i class="fas fa-code"></i>
-           <a class="active" href="#home">Home</a>
-           <a href="#services">services</a>
-           <a href="#portfolio">portfolio</a>
-           <a href="#contact">contact</a>
-           <a href="#about">about</a>
-       </div>
+   
+        <div class="navbar-left">
+            <i class="fas fa-code"></i>
+               <a class="active" href="#home"><button class="hoverMe">home</button></a>
+               <a href="#services"><button class="hoverMe">services</button></a>
+               <a href="#portfolio"><button class="hoverMe">portfolio</button></a>
+               <a href="#contact"><button class="hoverMe">contact</button></a>
+               <a href="#about"><button class="hoverMe">about</button></a>
+              
+           </div>
+ 
        
        
        <!--head section-->
@@ -33,15 +36,17 @@
        <!--hero section-->
       <div class="hero-section">
           <div class="hero-wrapper">
+              
               <div class="column-left">
                   <h1>Hey, I am a Web Developer</h1>
                   <p>I'm a web designer and Developer from london. UK. I create custom
                       websites to help businesses do better online,  
                       I'm currently living in Humburg and looking for job.
                   </p>
+                 
               </div>
-              <div class="column-right"></div>
-                  <img src="./img/img/desk-top.jpeg" alt="desk-top" class="desk-top.jpeg">
+              <div class="column-right">
+                  <img src="./img/img/desk-top.jpeg" alt="desk-top">
               </div>
           </div>
       </div>
@@ -55,8 +60,8 @@
                        websites to help businesses do better online,  
                        I'm currently  living in Humburg Germany and looking for new job </h2>
                       <P> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga impedit, odit
-                           voluptate consequuntur facilis ea, numquam voluptates, ipsum iste enim aspernatur 
-                           repellendus dicta! Error eveniet, ad repellendus vel esse cupiditate.</P>
+                      voluptate consequuntur facilis ea, numquam voluptates, ipsum iste enim aspernatur 
+                      repellendus dicta! Error eveniet, ad repellendus vel esse cupiditate.</P>
                   </div>
                   <div class="main-image">
                       <img src="./img/img/man-face.jpeg" alt="face" class="main-img">
@@ -69,26 +74,44 @@
             <div class="services">
                   <h1>services</h1>
                 <div class="services-container">
-                    <div class="services-left">
+                    <div class="services-flex">
                         <div>
                              <img src="./img/img/web-dev.jpeg" alt="services">
                              <h2>Web Development</h2>
                              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                 Amet sequi perspiciatis minus? Excepturi magni impedit harum assumenda ea
-                                 tempora? Quidem sunt voluptatem esse itaque omnis quod ipsam ea earum repellat?</p>
+                             Amet sequi perspiciatis minus? Excepturi magni impedit harum assumenda ea
+                             stempora? Quidem sunt voluptatem esse itaque omnis quod ipsam ea earum repellat?</p>
                         </div>
                     </div>
-                    <div class="services-right">
+                    <div class="services-flex">
+                        <div>
+                             <img src="./img/img/web-dev.jpeg" alt="services">
+                             <h2>Infographics</h2>
+                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                             Amet sequi perspiciatis minus? Excepturi magni impedit harum assumenda ea
+                             stempora? Quidem sunt voluptatem esse itaque omnis quod ipsam ea earum repellat?</p>
+                        </div>
+                    </div>
+                    <div class="services-flex">
                         <div>
                               <img src="./img/img/web-dev.jpeg" alt="services">
-                              <h2>Web Development</h2>
+                              <h2>Web Design </h2>
                               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                 Amet sequi perspiciatis minus? Excepturi magni impedit harum assumenda ea
-                                 tempora? Quidem sunt voluptatem esse itaque omnis quod ipsam ea earum repellat?</p>
+                              Amet sequi perspiciatis minus? Excepturi magni impedit harum assumenda ea
+                              tempora? Quidem sunt voluptatem esse itaque omnis quod ipsam ea earum repellat?</p>
                         </div>
                     </div>
                 </div>
-            </div>              
+                <div class="loader">
+                    <span class="loader__element"></span>
+                    <span class="loader__element"></span>
+                    <span class="loader__element"></span>
+                    <span class="loader__element"></span>
+                    <span class="loader__element"></span>
+                </div>
+                
+            </div>
+
                   
                   <!--portfolio-->
         <div class="portfolio">
@@ -105,30 +128,31 @@
                          elit. Mollitia exercitationem saepe dignissimos! Odit, dolorem. Excepturi aut 
                          impedit odio voluptas reiciendis eligendi quod 
                         cupiditate! Quibusdam voluptatibus ullam debitis doloremque molestias quae?</p>
-                        <a hfer="#"> See More  </a>
+                        <a href="#"><button class="hoverMe">see more</button>
+                           </a>
                 </div>
             </div>
         </div>
             <div class="portfolio-projects">
-                <div class="cards">
+                <div class="portfolio-projects-cards">
                     <img src="./img/img/web-dev.jpeg" alt="portfolio">
-                    <p>Project one</p>p>
+                    <p>Project one</p>
                 </div>
                 <div class="portfolio-projects-cards">
                     <img src="./img/img/web-dev.jpeg" alt="portfolio">
-                    <p>Project two</p>p>
+                    <p>Project two</p>
                 </div>
                 <div class="portfolio-projects-cards">
                     <img src="./img/img/web-dev.jpeg" alt="portfolio">
-                    <p>Project three</p>p>
+                    <p>Project three</p>
                 </div>
                 <div class="portfolio-projects-cards">
                     <img src="./img/img/web-dev.jpeg" alt="portfolio">
-                    <p>Project four</p>p>
+                    <p>Project four</p>
                 </div>
                 <div class="portfolio-projects-cards">
                     <img src="./img/img/web-dev.jpeg" alt="portfolio">
-                    <p>Project five</p>p>
+                    <p>Project five</p>
                 </div>
             </div>
         </div>
@@ -137,7 +161,7 @@
       <div class="contact">
           <div class="contact-bar">
               <p class="emailText">Email</p>
-              <span>Mark.robin@gmail.com</span>
+              <span>mbark.ben@gmail.com</span>
           </div>
           <h1>Contact me</h1>
       </div>
@@ -145,7 +169,7 @@
       <!--footer-->
       <div class="footer">
               <div class="footer-left">
-                  <h2>Mark Robin</h2>
+                  <h2>M'barek Ben</h2>
                   <p>Copyright -- Lorem ipsum dolor, sit consectetur adipisicing elit. Id numquam </p>
               </div>
 
@@ -156,13 +180,6 @@
                 <th><a href="#"><button class="hoverMe">community</button></a></th>
                 <th><a href="#"><button class="hoverMe">follow</button></a></th>
               </ul>
-          
-              <!-- <div class="footer-right">
-                  <a href="#"> products</a>
-                  <a href="#"> customers</a>
-                  <a href="#"> community</a>
-                  <a href="#"> follow</a>
-              </div> -->
       </div>
 
 
